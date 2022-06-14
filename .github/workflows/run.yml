@@ -23,4 +23,4 @@ jobs:
 
       - name: Run http
         run: |
-          docker run -p 80:8080 jetty
+          docker run -p 8080:8080 jetty
